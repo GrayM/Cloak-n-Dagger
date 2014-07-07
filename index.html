@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="./assets/styles.css" rel="stylesheet">
+	<link href="./assets/normalize.css" rel="stylesheet">
+</head>
+<body>
+	<script type="magic" id="github_profile_template">
+		<div class="profile">
+			<div class="top">
+				<h1>Profile</h1>
+			</div>
+			<div class="middle">
+				<div class="column1">
+					<img src="<%= avatar_url %>">
+				</div>	
+				<div class="column2">
+					<h2><a href="<%= html_url %>" target="_blank"><%= name %></a></h2>
+					<ul>
+						<li><a href="<%= html_url %>" target="_blank"><%= login %></a></li>
+						<li><a href="<%= blog %>" target="blank"><%= blog %></a></li>
+						<li><%= location %></li>
+					</ul>
+				</div>
+			<div class="bottom">
+				<div class="col1">
+					<p><%= public_repos %></p>
+					<p>repos</>
+				</div>
+				<div class="col2">
+					<p><%= followers %></p>
+					<p>followers</p>
+				</div>
+				<div class="col3">
+					<p><%= following %></p>
+					<p>following</p>
+				</div>
+			</div>	
+		</div>
+	</script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="./assets/code.js"></script>
+</body>
+</html>
