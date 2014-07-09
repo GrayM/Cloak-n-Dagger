@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+ *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 176, 255);
+}
+.centered {
+	margin: 50px auto;
+	
+}
+.clock, .color {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10em;
+    text-align: center;
+    color: rgb(239, 239, 239);
+    text-shadow: 0px 2px 10px rgb(149, 149, 149);
+}
+.clock {
+
+}
+.color {
+	
+}
+.handles {
+	text-align: center;
+} 
+.left {
+	display: inline-block;
+    height: 8px;
+    width: 350px;
+    border: 8px solid rgb(239, 239, 239);
+    box-shadow: 0px 2px 10px rgb(149, 149, 149);
+    margin: 0 auto;
+}
+.right {
+	display: inline-block;
+    height: 8px;
+    width: 350px;
+    border: 8px solid rgb(239, 239, 239);
+    box-shadow: 0px 2px 10px rgb(149, 149, 149);
+    margin: 0 auto;
+}
