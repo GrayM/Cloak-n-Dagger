@@ -22,15 +22,15 @@ setInterval(function clock() {
 
     };
     $('body').css('backgroundColor', colorChanger)
+    var rgbFix = colorChanger().replace("rgb(", "").replace(")","");    
+    console.log(rgbFix);
+    $('.color').html(rgbFix)
 }, 1000);
+
 
 function checkTime(i) {
     if (i < 10) {
         i = "0" + i
-
-
     }; // add zero in front of numbers < 10
     return i;
-
-
 };

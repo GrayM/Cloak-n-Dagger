@@ -4,41 +4,37 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(0, 176, 255);
+    background-color: rgb(0, 0, 0);
 }
 .centered {
-	margin: 50px auto;
-	
+	height: 100%;
+    width: 100%;
+    vertical-align: middle;
 }
 .clock, .color {
+    position: relative;
     font-family: 'Open Sans', sans-serif;
     font-size: 10em;
     text-align: center;
     color: rgb(239, 239, 239);
-    text-shadow: 0px 2px 10px rgb(149, 149, 149);
-}
-.clock {
-
-}
-.color {
-	
+    text-shadow: 0px 0px 3px rgb(149, 149, 149);
 }
 .handles {
 	text-align: center;
 } 
 .left {
 	display: inline-block;
-    height: 8px;
+    height: 13px;
     width: 350px;
-    border: 8px solid rgb(239, 239, 239);
-    box-shadow: 0px 2px 10px rgb(149, 149, 149);
+    background-color: rgb(239, 239, 239);
+    box-shadow: 0px 0px 3px rgb(149, 149, 149);
     margin: 0 auto;
 }
 .right {
-	display: inline-block;
-    height: 8px;
+    display: inline-block;
+    height: 13px;
     width: 350px;
-    border: 8px solid rgb(239, 239, 239);
-    box-shadow: 0px 2px 10px rgb(149, 149, 149);
+    background-color: rgb(239, 239, 239);
+    box-shadow: 0px 0px 3px rgb(149, 149, 149);
     margin: 0 auto;
 }
